@@ -32,3 +32,16 @@ nb-configuration.xml
 # patch
 *.orig
 *.rej
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Terragrunt
+.terragrunt-cache/
+
+# Scripts
+**/scripts/.temp
