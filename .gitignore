@@ -1,0 +1,34 @@
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ
+/.idea/*
+!/.idea/scopes
+*.ipr
+*.iml
+*.iws
+http-client.private.env.json
+
+# Module Development
+git-worktree
+
+# NetBeans
+nb-configuration.xml
+
+# Visual Studio Code
+.vscode
+.factorypath
+
+# OSX
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# patch
+*.orig
+*.rej
